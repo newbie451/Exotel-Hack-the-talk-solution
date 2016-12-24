@@ -1,4 +1,5 @@
 
+
 Project:
 Acoustic Sentimental Analysis:
 Our project uses an open library pyAudioAnalysis for feature Extraction.
@@ -16,7 +17,7 @@ The features extracted are:
 34. Chroma Deviation
 
  
-We explcitly convert the .mp3 files to .wav files using pydub.
+We explicitly convert the .mp3 files to .wav files using pydub.
 
 The trained data set is loaded in a pickle file so as to avoid training everytime.
 
