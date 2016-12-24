@@ -1,10 +1,17 @@
-This repository provides solution of the team, noobs451 for the Competition, Hack-the-Talk.
-This team placed eight in the competition.
+This repository contains solution of the team noobs451 for the competition Hack-the-Talk.
+The team placed eight in the competition.
 https://www.hackerearth.com/sprints/hack-the-talk/
 
+Team members:
+1. Prathamesh Dharangutte
+2. Shivani Firodiya
+3. Nilesh Gavhane
+
 # Project:
-Acoustic Sentimental Analysis:
-Our project uses an open library pyAudioAnalysis for feature Extraction.
+
+Predict emotion of an audio clip.
+
+The code uses the open-source library, pyAudioAnalysis for feature extraction.
 The features extracted are:
 1. Zero Crossing Rate
 2. Energy
@@ -18,7 +25,6 @@ The features extracted are:
 22-33. Chroma Vector
 34. Chroma Deviation
 
- 
 We explicitly convert the .mp3 files to .wav files using pydub.
 
 The trained data set is loaded in a pickle file so as to avoid training everytime.
